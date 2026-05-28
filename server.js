@@ -82,7 +82,8 @@ App.get("/messages", (req, res) => {
 
 });
 
+const port = process.env.PORT || 5000;
 
-App.listen(5000, () => {
+App.listen(port, () => {
   console.log("Server running on port 5000");
 });
